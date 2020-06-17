@@ -42239,8 +42239,10 @@ var render = function() {
     "div",
     {
       staticClass:
-        "bg-blue-200 animated bounceInRight rounded-lg\n     fixed flex delay-2s mx-6  inset-0 left-auto top-auto my-12\n      transition-opacity ease-in duration-1000 opacity-100' ",
-      class: this.closed ? "animated bounceOutRight" : ""
+        "bg-blue-200 animate__animated animate__bounceInRight rounded-lg\n     fixed flex delay-2s mx-6  inset-0 left-auto top-auto my-12\n      transition-opacity ease-in duration-1000 opacity-100' ",
+      class: this.closed
+        ? "animate__animated animate__bounceOutRight animate__delay-2s"
+        : ""
     },
     [
       _c("div", { staticClass: "mr-4 p-2  flex items-center" }, [

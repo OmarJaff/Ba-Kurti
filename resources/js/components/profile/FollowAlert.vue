@@ -1,9 +1,9 @@
 <template>
         <div
-            class="bg-blue-200 animated bounceInRight rounded-lg
+            class="bg-blue-200 animate__animated animate__bounceInRight rounded-lg
              fixed flex delay-2s mx-6  inset-0 left-auto top-auto my-12
               transition-opacity ease-in duration-1000 opacity-100' "
-            :class="this.closed ? 'animated bounceOutRight' : ''"
+            :class="this.closed ? 'animate__animated animate__bounceOutRight animate__delay-2s' : ''"
         >
             <div class="mr-4 p-2  flex items-center">
                 <div class="flex">
